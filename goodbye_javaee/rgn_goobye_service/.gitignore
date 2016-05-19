@@ -21,3 +21,6 @@ gradle-app.setting
 
 ## File-based project format:
 *.iws
+
+*.iml
+*.lst

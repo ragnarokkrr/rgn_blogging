@@ -17,7 +17,7 @@ public class GoodbyeController {
     private static final String template = "[%s] Goodbye JavaEE Monolith";
     private final AtomicLong counter = new AtomicLong();
 
-    @Value("#{environment.GOODBYE_INSTANCE ?:'NO_INSTANCE_SET'}")
+    @Value("${ragna.gooodbye.instance:'NO_INSTANCE_SET'}")
     private String instanceId;
 
     @RequestMapping("/goodbye")
